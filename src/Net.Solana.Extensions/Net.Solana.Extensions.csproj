@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<PackageId>Net.Solana.Extensions</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Net.Solana.Programs\Net.Solana.Programs.csproj" />
+    <ProjectReference Include="..\Net.Solana.Rpc\Net.Solana.Rpc.csproj" />
+    <ProjectReference Include="..\Net.Solana.Wallet\Net.Solana.Wallet.csproj" />
+  </ItemGroup>
+</Project>
