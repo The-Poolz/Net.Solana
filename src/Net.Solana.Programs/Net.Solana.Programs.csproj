@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<PackageId>Net.Solana.Programs</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\TokenSwap\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Net.Solana.Rpc\Net.Solana.Rpc.csproj" />
+  </ItemGroup>
+</Project>

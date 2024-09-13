@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5872AC34-B667-4655-856B-BCB638FD46DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solana.Rpc", "src\Net.Solana.Rpc\Net.Solana.Rpc.csproj", "{6C54D09E-7E5D-48E1-B713-3DC981B928F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solana.Programs", "src\Net.Solana.Programs\Net.Solana.Programs.csproj", "{A1BBE2A0-FFA0-48A1-B834-464F979E63A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solana.KeyStore", "src\Net.Solana.KeyStore\Net.Solana.KeyStore.csproj", "{F13EB702-B12C-40E6-AF59-F037E9E70DF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solana.Extensions", "src\Net.Solana.Extensions\Net.Solana.Extensions.csproj", "{CE0483B6-CE08-47C0-BF01-BB6F6A97C4C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AF1705C6-9774-447F-84C4-18425CB23983}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solana.Extensions.Tests", "tests\Net.Solana.Extensions.Tests\Net.Solana.Extensions.Tests.csproj", "{5654DDDD-0DAE-47E5-9DD6-167AB6AEA9B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solana.KeyStore.Tests", "tests\Net.Solana.KeyStore.Tests\Net.Solana.KeyStore.Tests.csproj", "{B399BEAE-BD37-4265-8493-7793835EECAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solana.Programs.Tests", "tests\Net.Solana.Programs.Tests\Net.Solana.Programs.Tests.csproj", "{3D910B5D-FD0D-46E4-A727-275BB16D3A3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solana.Rpc.Tests", "tests\Net.Solana.Rpc.Tests\Net.Solana.Rpc.Tests.csproj", "{DF0708E1-08D4-4894-B68E-CF89C877A1EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solana.Wallet.Tests", "tests\Net.Solana.Wallet.Tests\Net.Solana.Wallet.Tests.csproj", "{520B68D3-86A5-491B-9512-754C4DCA9164}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solana.Wallet", "src\Net.Solana.Wallet\Net.Solana.Wallet.csproj", "{A85CC03A-7B14-4881-9FB6-FAD7617902DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C54D09E-7E5D-48E1-B713-3DC981B928F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C54D09E-7E5D-48E1-B713-3DC981B928F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C54D09E-7E5D-48E1-B713-3DC981B928F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C54D09E-7E5D-48E1-B713-3DC981B928F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BBE2A0-FFA0-48A1-B834-464F979E63A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BBE2A0-FFA0-48A1-B834-464F979E63A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BBE2A0-FFA0-48A1-B834-464F979E63A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BBE2A0-FFA0-48A1-B834-464F979E63A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13EB702-B12C-40E6-AF59-F037E9E70DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13EB702-B12C-40E6-AF59-F037E9E70DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13EB702-B12C-40E6-AF59-F037E9E70DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13EB702-B12C-40E6-AF59-F037E9E70DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0483B6-CE08-47C0-BF01-BB6F6A97C4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0483B6-CE08-47C0-BF01-BB6F6A97C4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0483B6-CE08-47C0-BF01-BB6F6A97C4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0483B6-CE08-47C0-BF01-BB6F6A97C4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5654DDDD-0DAE-47E5-9DD6-167AB6AEA9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5654DDDD-0DAE-47E5-9DD6-167AB6AEA9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5654DDDD-0DAE-47E5-9DD6-167AB6AEA9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5654DDDD-0DAE-47E5-9DD6-167AB6AEA9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B399BEAE-BD37-4265-8493-7793835EECAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B399BEAE-BD37-4265-8493-7793835EECAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B399BEAE-BD37-4265-8493-7793835EECAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B399BEAE-BD37-4265-8493-7793835EECAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D910B5D-FD0D-46E4-A727-275BB16D3A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D910B5D-FD0D-46E4-A727-275BB16D3A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D910B5D-FD0D-46E4-A727-275BB16D3A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D910B5D-FD0D-46E4-A727-275BB16D3A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0708E1-08D4-4894-B68E-CF89C877A1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0708E1-08D4-4894-B68E-CF89C877A1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0708E1-08D4-4894-B68E-CF89C877A1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0708E1-08D4-4894-B68E-CF89C877A1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520B68D3-86A5-491B-9512-754C4DCA9164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520B68D3-86A5-491B-9512-754C4DCA9164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520B68D3-86A5-491B-9512-754C4DCA9164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520B68D3-86A5-491B-9512-754C4DCA9164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85CC03A-7B14-4881-9FB6-FAD7617902DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85CC03A-7B14-4881-9FB6-FAD7617902DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85CC03A-7B14-4881-9FB6-FAD7617902DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85CC03A-7B14-4881-9FB6-FAD7617902DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C54D09E-7E5D-48E1-B713-3DC981B928F3} = {5872AC34-B667-4655-856B-BCB638FD46DD}
+		{A1BBE2A0-FFA0-48A1-B834-464F979E63A9} = {5872AC34-B667-4655-856B-BCB638FD46DD}
+		{F13EB702-B12C-40E6-AF59-F037E9E70DF7} = {5872AC34-B667-4655-856B-BCB638FD46DD}
+		{CE0483B6-CE08-47C0-BF01-BB6F6A97C4C7} = {5872AC34-B667-4655-856B-BCB638FD46DD}
+		{5654DDDD-0DAE-47E5-9DD6-167AB6AEA9B2} = {AF1705C6-9774-447F-84C4-18425CB23983}
+		{B399BEAE-BD37-4265-8493-7793835EECAD} = {AF1705C6-9774-447F-84C4-18425CB23983}
+		{3D910B5D-FD0D-46E4-A727-275BB16D3A3F} = {AF1705C6-9774-447F-84C4-18425CB23983}
+		{DF0708E1-08D4-4894-B68E-CF89C877A1EE} = {AF1705C6-9774-447F-84C4-18425CB23983}
+		{520B68D3-86A5-491B-9512-754C4DCA9164} = {AF1705C6-9774-447F-84C4-18425CB23983}
+		{A85CC03A-7B14-4881-9FB6-FAD7617902DD} = {5872AC34-B667-4655-856B-BCB638FD46DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83090C2D-6786-4E72-AD42-B88D9CE3CEEE}
+	EndGlobalSection
+EndGlobal
